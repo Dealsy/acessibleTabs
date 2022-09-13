@@ -17,12 +17,15 @@ You can click on any of the below technologies to learn more about that one.
 
 You can host this project on [Netlify](https://www.netlify.com/).
 
-there are two ways to host this project on Netlify:
+First you will need to create a new site on Netlify and connect it to your GitHub repository.
+
+Then you will need to set the following environment variables,
+there are two ways to setup environment variables in Netlify:
 
 You can create a `netlify.toml` file in the root of your project. This file will contain the following:
 
 ```
-[build]
+[build]s
   command = "npm run build"
   publish = "build"
   functions = "functions"
