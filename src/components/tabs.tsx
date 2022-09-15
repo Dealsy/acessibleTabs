@@ -5,7 +5,6 @@ type tabProps = {
   tabsData: {
     name: string;
     href: string;
-    current: boolean;
     id: string;
   }[];
 };
